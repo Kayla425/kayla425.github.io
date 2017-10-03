@@ -1,0 +1,19 @@
+/* .themify_builder_118_row.module_row_0 Style */
+.themify_builder_118_row.module_row_0.module_row {
+	padding-top : 15%;
+	padding-bottom : 15%
+}
+.themify_builder_118_row.module_row_0.module_row>.builder_row_cover {
+	background:rgba(0,0,0, 0.09)
+}
+
+.themify_builder .icon-118-0-0-1 div.module-icon { text-align: center;  } 
+.themify_builder .icon-118-0-0-1 div.module-icon .module-icon-item i { color: #faf5f5;  } 
+/* .themify_builder_118_row.module_row_1 Style */
+.themify_builder_118_row.module_row_1.module_row {
+	padding-top : 5%;
+	padding-bottom : 5%
+}
+
+.themify_builder .post-118-1-0-1.module-post .post { padding-top: 5%; padding-right: 5%; padding-bottom: 5%; padding-left: 5%; margin-bottom: 5%;  } 
+.themify_builder .post-118-1-0-1.module-post .post-content .entry-content { line-height: 5%;  } 
