@@ -255,9 +255,9 @@ h1{
 
 #form{
 	height: 100%;	
-	overflow: hidden;
+	-overflow: hidden;
 	position: relative;
-	padding-bottom: 30px;
+	padding-bottom: 130px;
 }
 
 form{
@@ -270,10 +270,10 @@ form{
 
 label, input, textarea{
 	display: block;	
+  height:100%;
 }
 input, textarea{
   background: #666666;
-
 	width: 500px;	
 	border: none;
 	border-radius: 20px;
@@ -290,7 +290,7 @@ input, textarea{
 	border: solid 3px #98d4f3;	
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
-	box-sizing:border-box;
+	 box-sizing:border-box;
 	
 }
 input:focus, textarea:focus{
@@ -329,17 +329,18 @@ label{
 /* FOOTER */
 
 
+
+
 #footerbody{
   background: black;
   bottom: 0px;
   left: 0px;
   right: 0px;
   display: block;
-  height: 142px;
+  height: 100px;
   font: inherit;   
   -margin: 0;
   padding: 10px;
-  -position: relative;
   text-align: center;    
   -width: 100%;
 }
