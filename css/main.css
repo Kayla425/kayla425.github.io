@@ -10,9 +10,9 @@
 }
 
 html, body {
-padding:0; 
-margin:0; 
-height:100%;
+  padding:0; 
+  margin:0; 
+  height:100%;
 }
 
 #header-image  {
@@ -23,6 +23,7 @@ height:100%;
   height: 200%;
   z-index:-1;
 }
+
 #header-image  img {
   position: absolute; 
   top: 0; 
@@ -32,7 +33,7 @@ height:100%;
   margin: auto; 
   min-width: 50%;
   min-height: 50%;
-  opacity: 0.5;
+  opacity: 0.75;
 
 }
 
@@ -42,11 +43,12 @@ div {
 
 #container {
   display: block;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   height: 100%;
 }
 
 #primary-navigation {
-  background: black; 
+  -background: black; 
   text-align: center;
 }
 
@@ -58,7 +60,7 @@ div {
 
 #primary-navigation a {
     border-bottom: 3px solid transparent;    
-    color: #fff;
+    color: black;
     display: inline-block;
     padding-bottom: 3px;
     text-decoration: none;
@@ -79,9 +81,11 @@ ul {
 }
 
 #information {
+  -background: gray;
   font-family: "Comic Sans MS", cursive, sans-serif;
-  padding: 20px;
-  width: 50%;
+  padding: 50px;
+  text-align: center;
+  width: 40%;
   
 }
 
@@ -120,9 +124,13 @@ th
 }
 
 #ServicesParagraph {
-  text-align: center;
-  padding: 15px;
+  text-align: left;
+  padding: 30px;
+  padding-left: 100px;
+}
 
+#ServicesParagraph ul {
+  padding: 10px;
 }
 .ServicesList{
   font-family: "Comic Sans MS", cursive, sans-serif;
@@ -207,10 +215,10 @@ th
 
 
 h1{
-  font-size: 4em;
+  font-size: 2.5em;
 	margin: 0 auto;
-	margin-top: 70px;
-	width: 500px;
+	margin-top: 50px;
+	width: 770px;
 	color: black;
 	text-align: center;
   padding-bottom: 30px;
@@ -232,34 +240,8 @@ h1{
 	100% {margin-left: 100%;}
 }
 
-.fish{
-	-background-image: url('http://www.geertjanhendriks.nl/codepen/form/fish.png');
-	width: 235px;
-	height: 104px;
-	margin-left: -235px;
-	position: absolute;	
-	animation: myfirst 24s;
-	-webkit-animation: myfirst 24s;
-	animation-iteration-count: infinite;
-	-webkit-animation-iteration-count: infinite;
-	animation-timing-function: linear;
-	-webkit-animation-timing-function: linear;
-}
-
-#fish{
-	top: 120px;
-}
-
-#fish2{
-	top: 260px;
-	animation-delay: 12s;
-	-webkit-animation-delay: 12s;
-}
-
-
 #form{
 	height: 100%;	
-	background-color: green;
 	overflow: hidden;
 	position: relative;
 	padding-bottom: 30px;
@@ -277,6 +259,8 @@ label, input, textarea{
 	display: block;	
 }
 input, textarea{
+  background: #666666;
+
 	width: 500px;	
 	border: none;
 	border-radius: 20px;
@@ -306,17 +290,13 @@ textarea{
 	overflow: auto;
 }
 input[type="submit"]{
-	background-color: green;
-  /*#F90;*/
-	color: white;
+	color: black;
 	height: 50px;
 	cursor: pointer;
 	margin-top: 30px;
 	font-size: 1.29em;
-	-font-family: 'Sniglet', cursive;
 	-webkit-transition: background-color 0.5s;
 	-moz-transition: background-color 0.5s;
-	-o-transition: background-color 0.5s;
 	transition: background-color 0.5s;
 }
 input[type="submit"]:hover{
@@ -329,61 +309,16 @@ label{
 	margin-top: 20px;
 	padding-left: 20px;
 }
-.formgroup, .formgroup-active, .formgroup-error{
-	background-repeat: no-repeat;
-	background-position: right bottom;
-	background-size: 10.5%;
-	transition: background-image 0.7s;
-	-webkit-transition: background-image 0.7s;
-	-moz-transition: background-image 0.7s;
-	-o-transition: background-image 0.7s;
-	width: 566px;
-	padding-top: 2px;
-}
 
-.formgroup{
-	background-image: url('http://www.geertjanhendriks.nl/codepen/form/pixel.gif');	
-}
-.formgroup-active{
-	background-image: url('http://www.geertjanhendriks.nl/codepen/form/octo.png');
-}
-.formgroup-error{
-	background-image: url('http://www.geertjanhendriks.nl/codepen/form/octo-error.png');
-	color: red;
-}
+
 
 /* ********************** */
 /* FOOTER */
 
-footer {
-  background: black;
-  bottom: 0px;
-  left: 0;
-  right: 0;
-  display: block;
-  font: inherit;   
-  margin: 0;
-  padding: 10px;
-  position: absolute;
-  text-align: center;    
-  width: 100%;
-}
-
-
-footer a{
-  color: white;
-  text-decoration: none;
-  padding: 5px 20px;  
-}
-
-footer p {
-  color: white;
-  text-align: center;
-}
 
 #footerbody{
   background: black;
-  bottom: 0px;
+  bottom: 0;
   left: 0;
   right: 0;
   display: block;
