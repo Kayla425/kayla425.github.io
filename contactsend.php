@@ -1,10 +1,16 @@
 <?php
-$name = $_post['name'];
-$email = $_post['email'];
-$message = $_post['message'];
+if (_POST['submit']) {
+$name = $_POST['name'];
+$email = $_POST['email'];
+$message = $_POST['message'];
 $to = 'animalhousevermont@gmail.com';
 $subject = "";
 
-mail ($to,$subject,$message);
-echo "message sent!";
+if (mail($to, $subject, $message)){
+  mail ($to,$subject,$message);
+  echo '<p>message sent!</p>';
+} else {
+  echo '<p>something went wrong!</p>';
+}
+}
 ?>
