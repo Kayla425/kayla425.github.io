@@ -50,7 +50,7 @@ div {
 
 #container {
   display: block;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  -font-family: "Comic Sans MS", cursive, sans-serif;
   height: 100%;
   margin: 0 auto -142px;
   -flex: 1;
@@ -92,7 +92,7 @@ ul {
 
 #information {
   -background: gray;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  -font-family: "Comic Sans MS", cursive, sans-serif;
   padding: 50px;
   text-align: center;
   width: 40%;
@@ -143,7 +143,7 @@ th
   padding: 10px;
 }
 .ServicesList{
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  -font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 150%;
   text-align: center;
   width: 100%;
@@ -170,14 +170,14 @@ th
 }
 
 .titleOfArea {
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  -font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 150%;
   margin: 7%;
   text-align: right;
 }
 
 .paragraphofArea {
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  -font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 #location-info p {
@@ -203,14 +203,14 @@ th
 }
 
 .titleofAbout {
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  -font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 150%;
   margin: 7%;
   text-align: center;
 }
 
 .paragraphofAbout {
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  -font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 #about-info p {
@@ -338,7 +338,7 @@ label{
   right: 0px;
   display: block;
   height: 100px;
-  font: inherit;   
+  -font: inherit;   
   -margin: 0;
   padding: 10px;
   text-align: center;    
