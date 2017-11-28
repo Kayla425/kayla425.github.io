@@ -9,6 +9,9 @@
   background: transparent;
 }
 
+title {
+    display: none;
+}
 
 
 html, body {
